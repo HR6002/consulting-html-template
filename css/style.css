@@ -16,6 +16,28 @@
     margin-bottom: 1rem; /* Spacing below the media */
 }
 
+
+/* Adjusting the text size and image size */
+.director-name {
+    font-size: 1.5rem; /* Increase font size for the director's name */
+}
+
+.director-img {
+    max-width: 75%; /* Make the image a bit smaller */
+}
+
+.message-title {
+    font-size: 1.25rem; /* Increase font size for the message title */
+}
+
+.message-text {
+    font-size: 1rem; /* Increase font size for the message text */
+}
+
+
+
+
+
 /* Make media element fill the container */
 .media-container .media-element {
     position: absolute;

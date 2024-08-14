@@ -92,13 +92,6 @@
         }
     });
     
-    // Smooth scrolling to the newsletter section with offset
-    $('.btn.btn-light.rounded-pill.text-primary.py-2.px-4.ms-lg-5').click(function (event) {
-        event.preventDefault();
-        var offset = 50; // Adjust this value to move the scroll down
-        $('html, body').animate({
-            scrollTop: $('#newsletter').offset().top - offset
-        }, 1500, 'easeInOutExpo');
-    });
+    
 
 })(jQuery);
